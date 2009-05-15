@@ -1,0 +1,23 @@
+<p>
+  <b>From:</b>
+  <%=h @quote.from %>
+</p>
+
+<p>
+  <b>To:</b>
+  <%=h @quote.to %>
+</p>
+
+<p>
+  <b>Context:</b>
+  <%=h @quote.context %>
+</p>
+
+<p>
+  <b>Quote:</b>
+  <%=h @quote.quote %>
+</p>
+
+
+<%= link_to 'Edit', edit_quote_path(@quote) %> |
+<%= link_to 'Back', quotes_path %>
